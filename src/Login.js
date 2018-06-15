@@ -9,8 +9,6 @@ export class Login {
 
     constructor() {
       this.state = {};
-      this.onOpenURL = this.onOpenURL.bind(this);
-      Linking.addEventListener('url', this.onOpenURL);
 
       this.props = {
         requestOptions: {
